@@ -1,11 +1,11 @@
 # evaluation_avionica_g4_v0
 Placa de desarrollo Núcleo-G474RE para componentes del módulo de sensores de aviónica
 
-## Desarrolladores: 
+# Desarrolladores: 
     - Marcos Ocón Madrid
     - Gabriela Moles Bazan
 
-## Objetivo:
+# Objetivo:
     Desarrollo e implementación del código de vuelo de la placa de sensores/aviónica del 
     cohete fabricado por el LEEM en 2025. 
     Dicho código ejecutara dos tareas principales. La primera será la obtención de las 
