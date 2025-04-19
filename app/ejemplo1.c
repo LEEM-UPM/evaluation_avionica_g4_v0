@@ -1,9 +1,9 @@
 #include "gpio.h"
 
-extern void SystemClock_Config(void);
-
 #define GREEN_LED_PIN GPIO_PIN_5
 #define GREEN_LED_PIN_PORT GPIOA
+
+extern void SystemClock_Config(void);
 
 int main()
 {
