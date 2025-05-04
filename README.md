@@ -1,5 +1,5 @@
 # evaluation_avionica_g4_v0
-Placa de desarrollo Núcleo-G474RE para componentes del módulo de sensores de aviónica
+Placa de desarrollo Nucleo-G474RE para componentes del módulo de sensores de aviónica
 
 # Desarrolladores: 
     - Marcos Ocón Madrid
@@ -26,6 +26,7 @@ Placa de desarrollo Núcleo-G474RE para componentes del módulo de sensores de a
         
         https://www.we-online.com/components/products/manual/Manual_UM_WSEN-ISDS_2536030320001%20(rev1.3).pdf
 
+        Driver: https://github.com/WurthElektronik/Sensors-SDK_STM32/tree/main/SensorsSDK/WSEN_ISDS_2536030320001
 
     - IMU de altas Gs (hasta 32Gs)  -> LSM6DSV32XTR 6 Axis IMU
 
@@ -39,7 +40,7 @@ Placa de desarrollo Núcleo-G474RE para componentes del módulo de sensores de a
 
     - 2 Barometros                  -> WSEN PADS (Wurth Electronik)
 
-        Ambos barómetros presentes en la placa son del mismo modelo, sin embarbo estan 
+        Ambos barómetros presentes en la placa son del mismo modelo, sin embargo estan 
         puestos en extremos de ella, y se usarán dos por redundancia y para descartar 
         medidas espurias. Dichos barómetros darán medidas de presión, que mediante su 
         procesamiento podrán servir para calcular la altura teórica del cohete o para 
@@ -50,6 +51,8 @@ Placa de desarrollo Núcleo-G474RE para componentes del módulo de sensores de a
         este sensor consutlat el manual del fabricante a continuación:
 
         https://www.we-online.com/components/products/manual/Manual-um-wsen-pads-2511020213301%20(rev3.0).pdf
+
+        Driver: https://github.com/WurthElektronik/Sensors-SDK_STM32/tree/main/SensorsSDK/WSEN_PADS_2511020213301
         
     - Magnetómetro                  -> MLX90393ELW-ABA-014-SP 3 Axis Magnetometer
 
@@ -71,11 +74,13 @@ Placa de desarrollo Núcleo-G474RE para componentes del módulo de sensores de a
         y no puede ser usado para conocer la posición precisa del cohete. Además, el 
         sensor puede funcionar desde frecuencias de 4Hz hasta 25Hz, dependiendo del 
         número de constelaciones que esté usando. Dicho sensor puede ser usado para la 
-        corrección del posción en 3 dimensiones del cohete sobre todo en su etapa de 
+        corrección de la posción en 3 dimensiones del cohete sobre todo en su etapa de 
         descenso (ya que en el ascenso se alcanzan velocidades superiores a los 30m/s). 
-        Para más información, consular el manual técnico a continuación:
+        Para más información, consultar el manual técnico a continuación:
 
         https://content.u-blox.com/sites/default/files/MAX-M10S_DataSheet_UBX-20035208.pdf
+
+        Librería NMEA: https://github.com/kosma/minmea
 
     - Sensor de Humedad             -> WSEN-HIDS (Wurth Electonik)
 
@@ -86,3 +91,5 @@ Placa de desarrollo Núcleo-G474RE para componentes del módulo de sensores de a
         consultar el manual técnico del sensor a continuación:
 
         https://www.we-online.com/components/products/manual/UM_WSEN-HIDS_2525020210002%20(rev1.2).pdf
+
+        Driver: https://github.com/WurthElektronik/Sensors-SDK_STM32/tree/main/SensorsSDK/WSEN_HIDS_2525020210002
