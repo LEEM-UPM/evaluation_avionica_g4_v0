@@ -4,7 +4,7 @@
 
 #include "WSEN_PADS_EXAMPLE.h"
 
-void SystemClock_Config(void);
+extern void SystemClock_Config(void);
 
 int main(void)
 {

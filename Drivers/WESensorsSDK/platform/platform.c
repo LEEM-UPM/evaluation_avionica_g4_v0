@@ -30,14 +30,6 @@
 
 #include "platform.h"
 
-// #ifdef STM32L432xx
-// #include "stm32l4xx_hal.h"
-// #endif
-
-// #ifdef STM32G031xx
-// #include "stm32g0xx_hal.h"
-// #endif
-
 #include "stm32g4xx_hal.h"
 
 #ifdef HAL_SPI_MODULE_ENABLED
