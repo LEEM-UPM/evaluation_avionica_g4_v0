@@ -2,8 +2,8 @@
 Placa de desarrollo Nucleo-G474RE para componentes del módulo de sensores de aviónica
 
 # Desarrolladores: 
+    - José Alejandro Ramos Tovar
     - Marcos Ocón Madrid
-    - Gabriela Moles Bazan
 
 # Objetivo:
     Desarrollo e implementación del código de vuelo de la placa de sensores/aviónica del 
@@ -93,3 +93,6 @@ Placa de desarrollo Nucleo-G474RE para componentes del módulo de sensores de av
         https://www.we-online.com/components/products/manual/UM_WSEN-HIDS_2525020210002%20(rev1.2).pdf
 
         Driver: https://github.com/WurthElektronik/Sensors-SDK_STM32/tree/main/SensorsSDK/WSEN_HIDS_2525020210002
+
+
+![alt text](media/avionica.png)
