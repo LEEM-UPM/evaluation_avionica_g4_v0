@@ -9,6 +9,8 @@
     ],
     "files.associations": {
         "*.conf": "bitbake",
-        "*.inc": "bitbake"
+        "*.inc": "bitbake",
+        "type_traits": "c",
+        "wesensorssdk.h": "c"
     }
 }

@@ -40,8 +40,10 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
-    app/app.c
-    app/main.c
+    # app/app.c
+    # app/main.c
+    poc/wsen_isds/main.c
+    # poc/wsen_pads/main.c
 )
 
 # Add include paths
@@ -53,6 +55,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined symbols
+    WE_USE_FLOAT
 )
 
 # Add linked libraries

@@ -16,9 +16,9 @@ target_include_directories(middleware INTERFACE
 )
 
 target_sources(middleware INTERFACE
-    sensors/pads.c
-    system/interrupts.c
-    system/mcu.c
+    # sensors/pads.c
+    # system/interrupts.c
+    # system/mcu.c
 )
 
 target_link_directories(middleware INTERFACE
